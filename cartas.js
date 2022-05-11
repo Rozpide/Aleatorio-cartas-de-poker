@@ -29,7 +29,7 @@ window.onload = function() {
     }
     function Probando() {
       document.querySelector(".valor").className =
-        "valor " + card[RandomCards(0, card.length)];
+        " valor " + card[RandomCards(0, card.length)];
     }
 
   };
